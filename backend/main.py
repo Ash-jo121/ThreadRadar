@@ -1,3 +1,4 @@
+import json
 from scraper import fetch_all
 from extractor import aggregate_tickers,extract_from_post
 from sentiment import analyze_sentiment
@@ -68,8 +69,13 @@ if __name__ == "__main__":
     results = analyze_ticker_sentiment(posts)
 
     print("\n=== TOP STOCK PICKS ===\n")
-    for r in results[:10]:
-        print(f"${r['ticker']}")
-        print(f"  Mentions: {r['mentions']} | Sentiment: {r['avg_sentiment']:+.3f} | Score: {r['final_score']:+.3f}")
-        print(f"  Context: {r['top_contexts'][0]['text'][:100] if r['top_contexts'] else 'N/A'}")
-        print()
+
+    with open("output.json", "w",encoding="utf-8") as file:
+        json.dump(results[:10], file, indent=2)
+    
+    with open("output.txt", "w",encoding="utf-8") as file:
+        for r in results[:10]:
+            file.write(f"${r['ticker']}\n")
+            file.write(f"  Mentions: {r['mentions']} | Sentiment: {r['avg_sentiment']:+.3f} | Score: {r['final_score']:+.3f}\n")
+            file.write(f"  Context: {r['top_contexts'][0]['text'][:100] if r['top_contexts'] else 'N/A'}\n")
+            file.write("\n")  # blank line between stocks

@@ -6,31 +6,31 @@ HEADERS = {"User-Agent":"ThreadRadar/1.0"}
 
 SUBREDDITS = ["pennystocks","smallstreetbets","Pennystock"]
 
-def fetch_posts(subreddit,category="hot",limit=25):
+def fetch_posts(subreddit,category="hot",limit=100):
     url = f"https://www.reddit.com/r/{subreddit}/{category}.json?limit={limit}"
-    response = requests.get(url,headers=HEADERS);
 
-    if response.status_code != 200:
-        print(f"Failed to fetch posts from the subreddit: {subreddit} :: {response.status_code}")
-        return []
-    
-    posts = response.json()["data"]["children"];
-    result = [];
+    for attempt in range(3):
+        response = requests.get(url,headers=HEADERS)
 
-    print(f"Fetched a total of {len(posts)} posts from the subreddit")
+        if response.status_code == 200:
+            posts = response.json()["data"]["children"]
+            print(f"Fetched a total of {len(posts)} posts from the subreddit")
+            return [{"id": p["data"]["id"], "title": p["data"]["title"],
+                     "body": p["data"].get("selftext", ""), "score": p["data"]["score"],
+                     "subreddit": subreddit, "url": f"https://reddit.com{p['data']['permalink']}"}
+                    for p in posts]
+        
+        elif response.status_code == 429:
+            wait = (attempt + 1) * 30  # 30s, 60s, 90s
+            print(f"  Rate limited. Waiting {wait}s before retry...")
+            time.sleep(wait)
+        
+        else:
+            print(f"Failed to fetch posts from the subreddit: {subreddit} :: {response.status_code}")
+            return []
+        
+    return []
 
-    for post in posts:
-        d=post["data"]
-        result.append({
-            "id":d["id"],
-            "title":d["title"],
-            "body":d.get("selftext",""),
-            "score":d["score"],
-            "subreddit":subreddit,
-            "url":f"https://www.reddit.com{d["permalink"]}"
-        })
-
-    return result
 
 def parse_comments_recursive(comments_list):
     comments = []
@@ -66,18 +66,27 @@ def fetch_comments(post_id,subreddit):
 
 def fetch_all():
     all_data = []
+    seen_ids = set()
+
     for subreddit in SUBREDDITS:
-        print(f"Fetching r/{subreddit}...")
-        posts = fetch_posts(subreddit)
+        for category in ["hot","top","new"]:
+            print(f"Fetching r/{subreddit}/{category}...")
+            posts = fetch_posts(subreddit,category=category,limit=100)
 
-        for post in posts:
-            comments = fetch_comments(post["id"],subreddit)
-            post["comments"] = comments
-            print(f"  Post: '{post['title'][:40]}' → {len(comments)} comments")
-            all_data.append(post)
-            time.sleep(1)
+            for post in posts:
+                if(post["id"] in seen_ids):
+                    continue
 
-        time.sleep(2)
+                seen_ids.add(post["id"])
+
+                comments = fetch_comments(post["id"],subreddit)
+                post["comments"] = comments
+                print(f"  Post: '{post['title'][:40]}' → {len(comments)} comments")
+                all_data.append(post)
+                time.sleep(2)
+
+            time.sleep(10)
+        time.sleep(15)
 
     print(f"Fetched {len(all_data)} posts total")
     return all_data

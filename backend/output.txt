@@ -1,0 +1,14 @@
+$OPEN
+  Mentions: 2 | Sentiment: +0.463 | Score: +2.178
+  Context: Anyone else still feeling the burn from the Opendoor ($OPEN) SPAC days? Just found some closure on t
+
+$MBOT
+  Mentions: 3 | Sentiment: +0.679 | Score: +1.598
+  Context: Huge news for Microbot Medical ($MBOT) ahead of full commercial rollout
+
+$NXPL
+  Mentions: 1 | Sentiment: +0.933 | Score: +1.037
+  Context: NextPlat Expects Approximately $55 Million in 2025 Revenue and Reports Strong Sequential Momentum wi
+
+$ARTM
+  Mentions: 1 | Sentiment: +0.798 | Score: +0.895
