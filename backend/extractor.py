@@ -8,7 +8,7 @@ def load_valid_tickers():
         "DO", "BY", "IF", "OR", "IS", "TO", "UP", "US", "AN", "AS",
         "HE", "WE", "ME", "MY", "NO", "OK", "AI", "DD", "IMO", "NFA",
         "CEO", "IPO", "ETF", "NYSE", "SEC", "FDA", "EPS", "ATH", "RIP",
-        "EOD", "AH", "PM", "AM", "PT", "TP", "SL", "RS", "OTC", "GDP"
+        "EOD", "AH", "PM", "AM", "PT", "TP", "SL", "RS", "OTC", "GDP","COST"
     }
     return BLACKLIST
 

@@ -56,6 +56,7 @@ def analyze_ticker_sentiment(all_posts):
         })
     
     results.sort(key=lambda x: x["final_score"], reverse=True)
+    results = [r for r in results if r["mentions"] >= 2]
     return results
 
 
@@ -71,7 +72,7 @@ if __name__ == "__main__":
     print("\n=== TOP STOCK PICKS ===\n")
 
     with open("output.json", "w",encoding="utf-8") as file:
-        json.dump(results[:10], file, indent=2)
+        json.dump(results[:10], file, indent=2,ensure_ascii=False)
     
     with open("output.txt", "w",encoding="utf-8") as file:
         for r in results[:10]:

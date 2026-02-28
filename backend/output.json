@@ -3,7 +3,7 @@
     "ticker": "OPEN",
     "mentions": 2,
     "avg_sentiment": 0.463,
-    "final_score": 2.178,
+    "final_score": 2.195,
     "top_contexts": [
       {
         "text": "Anyone else still feeling the burn from the Opendoor ($OPEN) SPAC days? Just found some closure on t",
@@ -11,7 +11,7 @@
         "score": 0.127
       },
       {
-        "text": "$OPEN is up nicely today. And closed with perfect setup for tomorrow too.\u00a0",
+        "text": "$OPEN is up nicely today. And closed with perfect setup for tomorrow too. ",
         "sentiment": "positive",
         "score": 0.798
       }
@@ -21,7 +21,7 @@
     "ticker": "MBOT",
     "mentions": 3,
     "avg_sentiment": 0.679,
-    "final_score": 1.598,
+    "final_score": 1.625,
     "top_contexts": [
       {
         "text": "Huge news for Microbot Medical ($MBOT) ahead of full commercial rollout",
@@ -60,7 +60,7 @@
     "final_score": 0.895,
     "top_contexts": [
       {
-        "text": "\ud83d\ude80 $ARTM \u2013 Undervalued OTC Play with Real Expansion + Global Growth Angle \ud83c\udf0d",
+        "text": "🚀 $ARTM – Undervalued OTC Play with Real Expansion + Global Growth Angle 🌍",
         "sentiment": "positive",
         "score": 0.798
       }
@@ -70,7 +70,7 @@
     "ticker": "COST",
     "mentions": 1,
     "avg_sentiment": 0.703,
-    "final_score": 0.866,
+    "final_score": 0.874,
     "top_contexts": [
       {
         "text": "Cowen reiterates BUY $HITI with a $6.50 price target calling it the clear leader in Canadian cannabi",
@@ -96,15 +96,15 @@
     "ticker": "AEHL",
     "mentions": 7,
     "avg_sentiment": 0.459,
-    "final_score": 0.819,
+    "final_score": 0.816,
     "top_contexts": [
       {
-        "text": "$AEHL +79% \u2014 $9M micro-cap announces Bitcoin \"Genius Plan\" with 6.5M float",
+        "text": "$AEHL +79% — $9M micro-cap announces Bitcoin \"Genius Plan\" with 6.5M float",
         "sentiment": "positive",
         "score": 0.768
       },
       {
-        "text": "$AEHL +79% \u2014 $9M micro-cap announces Bitcoin \"Genius Plan\" with 6.5M float",
+        "text": "$AEHL +79% — $9M micro-cap announces Bitcoin \"Genius Plan\" with 6.5M float",
         "sentiment": "positive",
         "score": 0.768
       },
@@ -132,7 +132,7 @@
     "ticker": "AIXI",
     "mentions": 3,
     "avg_sentiment": 0.591,
-    "final_score": 0.788,
+    "final_score": 0.781,
     "top_contexts": [
       {
         "text": "$AIXI, Taking out ChatGPT?",
@@ -140,7 +140,7 @@
         "score": 0.04
       },
       {
-        "text": "$AIXI Low float AI Name Gaining Momentum \ud83d\udcc8",
+        "text": "$AIXI Low float AI Name Gaining Momentum 📈",
         "sentiment": "positive",
         "score": 0.868
       },
@@ -152,15 +152,25 @@
     ]
   },
   {
-    "ticker": "DVLT",
-    "mentions": 1,
-    "avg_sentiment": 0.643,
-    "final_score": 0.757,
+    "ticker": "RCKT",
+    "mentions": 3,
+    "avg_sentiment": 0.538,
+    "final_score": 0.758,
     "top_contexts": [
       {
-        "text": "Surprisingly no $DVLT in the comments \ud83e\udd14 especially when it held current levels strong even when the ",
+        "text": "$RCKT IMO Earnings delivered exactly what the story needed heading into March 28",
         "sentiment": "positive",
-        "score": 0.643
+        "score": 0.753
+      },
+      {
+        "text": "$RCKT: IMO Approval odds at 70‑80% and why this one could even see early clearance",
+        "sentiment": "neutral",
+        "score": 0.05
+      },
+      {
+        "text": "Check out $RCKT.\nGathering attention after hours as positive earnings call on the run into FDA decis",
+        "sentiment": "positive",
+        "score": 0.812
       }
     ]
   }

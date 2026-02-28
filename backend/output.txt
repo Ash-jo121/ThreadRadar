@@ -1,9 +1,9 @@
 $OPEN
-  Mentions: 2 | Sentiment: +0.463 | Score: +2.178
+  Mentions: 2 | Sentiment: +0.463 | Score: +2.195
   Context: Anyone else still feeling the burn from the Opendoor ($OPEN) SPAC days? Just found some closure on t
 
 $MBOT
-  Mentions: 3 | Sentiment: +0.679 | Score: +1.598
+  Mentions: 3 | Sentiment: +0.679 | Score: +1.625
   Context: Huge news for Microbot Medical ($MBOT) ahead of full commercial rollout
 
 $NXPL
@@ -12,3 +12,29 @@ $NXPL
 
 $ARTM
   Mentions: 1 | Sentiment: +0.798 | Score: +0.895
+  Context: 🚀 $ARTM – Undervalued OTC Play with Real Expansion + Global Growth Angle 🌍
+
+$COST
+  Mentions: 1 | Sentiment: +0.703 | Score: +0.874
+  Context: Cowen reiterates BUY $HITI with a $6.50 price target calling it the clear leader in Canadian cannabi
+
+$AIMD
+  Mentions: 1 | Sentiment: +0.769 | Score: +0.863
+  Context: #AIMD - Ainos Activates Industrial-Scale Deployment Roadmap of Up to 20,000 Units
+
+$AEHL
+  Mentions: 7 | Sentiment: +0.459 | Score: +0.816
+  Context: $AEHL +79% — $9M micro-cap announces Bitcoin "Genius Plan" with 6.5M float
+
+$ANNA
+  Mentions: 1 | Sentiment: +0.684 | Score: +0.805
+  Context: $ANNA AleAnna has the capability to pop over the years
+
+$AIXI
+  Mentions: 3 | Sentiment: +0.591 | Score: +0.781
+  Context: $AIXI, Taking out ChatGPT?
+
+$RCKT
+  Mentions: 3 | Sentiment: +0.538 | Score: +0.758
+  Context: $RCKT IMO Earnings delivered exactly what the story needed heading into March 28
+
