@@ -4,7 +4,7 @@ import time
 
 HEADERS = {"User-Agent":"ThreadRadar/1.0"}
 
-SUBREDDITS = ["pennystocks","smallstreetbets","RobinHoodPennyStocks"]
+SUBREDDITS = ["pennystocks","smallstreetbets","Pennystock"]
 
 def fetch_posts(subreddit,category="hot",limit=25):
     url = f"https://www.reddit.com/r/{subreddit}/{category}.json?limit={limit}"
@@ -32,6 +32,23 @@ def fetch_posts(subreddit,category="hot",limit=25):
 
     return result
 
+def parse_comments_recursive(comments_list):
+    comments = []
+    for c in comments_list:
+        if c["kind"] == "t1":
+            data = c["data"]
+            comments.append({
+                "body":data["body"],
+                "score":data["score"]
+            })
+
+            replies = data.get("replies","")
+            if replies and isinstance(replies,dict):
+                nested = replies["data"]["children"]
+                comments.extend(parse_comments_recursive(nested))
+
+    return comments
+
 
 def fetch_comments(post_id,subreddit):
     url = f"https://www.reddit.com/r/{subreddit}/comments/{post_id}.json"
@@ -40,19 +57,11 @@ def fetch_comments(post_id,subreddit):
     if(response.status_code != 200):
         return []
 
-    comments = []
     try:
         comment_list = response.json()[1]["data"]["children"]
-        for c in comment_list:
-            if(c["kind"] == "t1"):
-                comments.append({
-                    "body":c["data"]["body"],
-                    "score":c["data"]["score"]
-                })
+        return parse_comments_recursive(comment_list)
     except:
-        pass
-
-    return comments
+        return []
 
 
 def fetch_all():
@@ -64,6 +73,7 @@ def fetch_all():
         for post in posts:
             comments = fetch_comments(post["id"],subreddit)
             post["comments"] = comments
+            print(f"  Post: '{post['title'][:40]}' → {len(comments)} comments")
             all_data.append(post)
             time.sleep(1)
 
