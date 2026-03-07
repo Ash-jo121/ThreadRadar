@@ -1,176 +1,216 @@
 [
   {
-    "ticker": "OPEN",
+    "ticker": "GANX",
+    "mentions": 5,
+    "avg_sentiment": 0.462,
+    "final_score": 1.314,
+    "top_contexts": [
+      {
+        "text": "Gain Therapeutics ($GANX) - The Parkinson's 'Unicorn' the biotech market is sleeping on. Clinical pr",
+        "sentiment": "neutral",
+        "score": 0.215
+      },
+      {
+        "text": "Is Gain Therapeutics about to make history at AD/PD(3/17) by becoming the first small molecule drug ",
+        "sentiment": "positive",
+        "score": 0.661
+      },
+      {
+        "text": "($GANX): March Update- Evidence of Disease Modification Keeps Getting Stronger",
+        "sentiment": "positive",
+        "score": 0.905
+      }
+    ]
+  },
+  {
+    "ticker": "DXST",
+    "mentions": 3,
+    "avg_sentiment": 0.608,
+    "final_score": 0.798,
+    "top_contexts": [
+      {
+        "text": "$DXST +62% — waste management micro-cap reports 69% revenue surge in wastewater division",
+        "sentiment": "positive",
+        "score": 0.915
+      },
+      {
+        "text": "WATCHLIST RECAP 03/04/2026",
+        "sentiment": "neutral",
+        "score": -0.007
+      },
+      {
+        "text": "$DXST +62% — waste management micro-cap reports 69% revenue surge in wastewater division",
+        "sentiment": "positive",
+        "score": 0.915
+      }
+    ]
+  },
+  {
+    "ticker": "AIFF",
+    "mentions": 3,
+    "avg_sentiment": 0.569,
+    "final_score": 0.772,
+    "top_contexts": [
+      {
+        "text": "$AIFF +64% — brain scan AI company announces 33x growth in scans + NVIDIA partnership",
+        "sentiment": "positive",
+        "score": 0.871
+      },
+      {
+        "text": "⚡MORNING WATCHLIST⚡",
+        "sentiment": "neutral",
+        "score": -0.034
+      },
+      {
+        "text": "$AIFF +64% — brain scan AI company announces 33x growth in scans + NVIDIA partnership",
+        "sentiment": "positive",
+        "score": 0.871
+      }
+    ]
+  },
+  {
+    "ticker": "SOC",
     "mentions": 2,
-    "avg_sentiment": 0.463,
-    "final_score": 2.195,
+    "avg_sentiment": 0.503,
+    "final_score": 0.733,
     "top_contexts": [
       {
-        "text": "Anyone else still feeling the burn from the Opendoor ($OPEN) SPAC days? Just found some closure on t",
+        "text": "AH WATCHLIST AND SET UPS",
         "sentiment": "neutral",
-        "score": 0.127
+        "score": 0.079
       },
       {
-        "text": "$OPEN is up nicely today. And closed with perfect setup for tomorrow too. ",
+        "text": "$SOC , Sable Offshore Corp. - Up over 25% today",
         "sentiment": "positive",
-        "score": 0.798
+        "score": 0.927
       }
     ]
   },
   {
-    "ticker": "MBOT",
-    "mentions": 3,
-    "avg_sentiment": 0.679,
-    "final_score": 1.625,
+    "ticker": "OLOX",
+    "mentions": 5,
+    "avg_sentiment": 0.402,
+    "final_score": 0.633,
     "top_contexts": [
       {
-        "text": "Huge news for Microbot Medical ($MBOT) ahead of full commercial rollout",
-        "sentiment": "positive",
-        "score": 0.83
-      },
-      {
-        "text": "Thanks for reading guys! Very excited about the interest Liberty has garnered so far during the limi",
-        "sentiment": "positive",
-        "score": 0.809
-      },
-      {
-        "text": "Absolutely stoked on $MBOT. Been in the red on them for a while unfortunately, but I think this is e",
-        "sentiment": "positive",
-        "score": 0.399
-      }
-    ]
-  },
-  {
-    "ticker": "NXPL",
-    "mentions": 1,
-    "avg_sentiment": 0.933,
-    "final_score": 1.037,
-    "top_contexts": [
-      {
-        "text": "NextPlat Expects Approximately $55 Million in 2025 Revenue and Reports Strong Sequential Momentum wi",
-        "sentiment": "positive",
-        "score": 0.933
-      }
-    ]
-  },
-  {
-    "ticker": "ARTM",
-    "mentions": 1,
-    "avg_sentiment": 0.798,
-    "final_score": 0.895,
-    "top_contexts": [
-      {
-        "text": "🚀 $ARTM – Undervalued OTC Play with Real Expansion + Global Growth Angle 🌍",
-        "sentiment": "positive",
-        "score": 0.798
-      }
-    ]
-  },
-  {
-    "ticker": "COST",
-    "mentions": 1,
-    "avg_sentiment": 0.703,
-    "final_score": 0.874,
-    "top_contexts": [
-      {
-        "text": "Cowen reiterates BUY $HITI with a $6.50 price target calling it the clear leader in Canadian cannabi",
-        "sentiment": "positive",
-        "score": 0.703
-      }
-    ]
-  },
-  {
-    "ticker": "AIMD",
-    "mentions": 1,
-    "avg_sentiment": 0.769,
-    "final_score": 0.863,
-    "top_contexts": [
-      {
-        "text": "#AIMD - Ainos Activates Industrial-Scale Deployment Roadmap of Up to 20,000 Units",
-        "sentiment": "positive",
-        "score": 0.769
-      }
-    ]
-  },
-  {
-    "ticker": "AEHL",
-    "mentions": 7,
-    "avg_sentiment": 0.459,
-    "final_score": 0.816,
-    "top_contexts": [
-      {
-        "text": "$AEHL +79% — $9M micro-cap announces Bitcoin \"Genius Plan\" with 6.5M float",
-        "sentiment": "positive",
-        "score": 0.768
-      },
-      {
-        "text": "$AEHL +79% — $9M micro-cap announces Bitcoin \"Genius Plan\" with 6.5M float",
-        "sentiment": "positive",
-        "score": 0.768
-      },
-      {
-        "text": "My pre market watchlist with plays",
+        "text": "Nano cap oil, $OLOX",
         "sentiment": "neutral",
-        "score": 0.014
-      }
-    ]
-  },
-  {
-    "ticker": "ANNA",
-    "mentions": 1,
-    "avg_sentiment": 0.684,
-    "final_score": 0.805,
-    "top_contexts": [
+        "score": 0.09
+      },
       {
-        "text": "$ANNA AleAnna has the capability to pop over the years",
+        "text": "$OLOX - Olenox Industries Inc. (Nasdaq: OLOX), formerly known as Safe &amp; Green Holdings Corp. (SG",
+        "sentiment": "neutral",
+        "score": 0.033
+      },
+      {
+        "text": "$OLOX - The retained EV company continues to accelerate its national footprint to meet rising consum",
         "sentiment": "positive",
-        "score": 0.684
+        "score": 0.93
       }
     ]
   },
   {
-    "ticker": "AIXI",
-    "mentions": 3,
-    "avg_sentiment": 0.591,
-    "final_score": 0.781,
+    "ticker": "SYNX",
+    "mentions": 2,
+    "avg_sentiment": 0.485,
+    "final_score": 0.628,
     "top_contexts": [
       {
-        "text": "$AIXI, Taking out ChatGPT?",
+        "text": "AH WATCHLIST WITH SET UPS, MESSAGE FOR SET UPS ON YOUR STOCKS TOO",
         "sentiment": "neutral",
         "score": 0.04
       },
       {
-        "text": "$AIXI Low float AI Name Gaining Momentum 📈",
+        "text": "$SYNX defense microcap trading volume today 6588% higher than daily average. Stock up 15% today but ",
         "sentiment": "positive",
-        "score": 0.868
-      },
-      {
-        "text": "$AIXI Low float AI name gaining momentum",
-        "sentiment": "positive",
-        "score": 0.864
+        "score": 0.929
       }
     ]
   },
   {
-    "ticker": "RCKT",
-    "mentions": 3,
-    "avg_sentiment": 0.538,
-    "final_score": 0.758,
+    "ticker": "PRSO",
+    "mentions": 7,
+    "avg_sentiment": 0.338,
+    "final_score": 0.622,
     "top_contexts": [
       {
-        "text": "$RCKT IMO Earnings delivered exactly what the story needed heading into March 28",
+        "text": "$PRSO +52% — semiconductor micro-cap lands military drone contract. Happy Friday.",
         "sentiment": "positive",
-        "score": 0.753
+        "score": 0.718
       },
       {
-        "text": "$RCKT: IMO Approval odds at 70‑80% and why this one could even see early clearance",
+        "text": "⚡MORNING WATCHLIST⚡",
         "sentiment": "neutral",
-        "score": 0.05
+        "score": -0.034
       },
       {
-        "text": "Check out $RCKT.\nGathering attention after hours as positive earnings call on the run into FDA decis",
+        "text": "**WATCHLIST RECAP 03/06/2026** \n\n$PRSO | +23% max profit \n\n$TURB | +13.5% max profit \n\n$MOBX | +23% ",
+        "sentiment": "neutral",
+        "score": 0.221
+      }
+    ]
+  },
+  {
+    "ticker": "FTRK",
+    "mentions": 12,
+    "avg_sentiment": 0.238,
+    "final_score": 0.528,
+    "top_contexts": [
+      {
+        "text": "FTRK – Newly Listed Nasdaq Entertainment Agency",
+        "sentiment": "neutral",
+        "score": 0.04
+      },
+      {
+        "text": "FTRK – Entertainment + Marketing Microcap",
+        "sentiment": "neutral",
+        "score": 0.024
+      },
+      {
+        "text": "$FTRK – Fast Track Group Growth Story",
         "sentiment": "positive",
-        "score": 0.812
+        "score": 0.788
+      }
+    ]
+  },
+  {
+    "ticker": "IBRX",
+    "mentions": 2,
+    "avg_sentiment": 0.375,
+    "final_score": 0.524,
+    "top_contexts": [
+      {
+        "text": "$AAOI and $IBRX are the only ones i'm tracking. I think each will 3 X by EOY",
+        "sentiment": "neutral",
+        "score": 0.016
+      },
+      {
+        "text": "$IBRX - held 8.57 nicely, needs a strong close above $8.85 and the it has room for $9+ (key break at",
+        "sentiment": "positive",
+        "score": 0.734
+      }
+    ]
+  },
+  {
+    "ticker": "ASNS",
+    "mentions": 8,
+    "avg_sentiment": 0.244,
+    "final_score": 0.519,
+    "top_contexts": [
+      {
+        "text": "$ASNS +56% — $1.5M market cap wins order on $120M Caltrans modernization project",
+        "sentiment": "positive",
+        "score": 0.887
+      },
+      {
+        "text": "WATCHLIST RECAP 03/04/2026",
+        "sentiment": "neutral",
+        "score": -0.007
+      },
+      {
+        "text": "$ASNS +56% — $1.5M market cap wins order on $120M Caltrans modernization project",
+        "sentiment": "positive",
+        "score": 0.887
       }
     ]
   }
