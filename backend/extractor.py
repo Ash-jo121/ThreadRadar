@@ -2,6 +2,8 @@ from multiprocessing import context
 import re
 import requests
 
+from comparison import is_comparison_mention
+
 def load_valid_tickers():
     BLACKLIST = {
         "A", "I", "IT", "BE", "ARE", "GO", "SO", "AT", "IN", "ON",
@@ -46,8 +48,10 @@ def extract_from_post(post):
         for ticker in tickers:
             if ticker not in found:
                 found[ticker] = {"mentions":0,"scores":[],"contexts":[]}
+            
+            if not is_comparison_mention(text,ticker):
+                found[ticker]["mentions"]+=1
 
-            found[ticker]["mentions"]+=1
             found[ticker]["scores"].append(comment["score"])
             found[ticker]["contexts"].append(comment["body"][:100])
     

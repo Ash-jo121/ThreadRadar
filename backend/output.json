@@ -2,8 +2,8 @@
   {
     "ticker": "GANX",
     "mentions": 5,
-    "avg_sentiment": 0.462,
-    "final_score": 1.314,
+    "avg_sentiment": 0.314,
+    "final_score": 0.888,
     "top_contexts": [
       {
         "text": "Gain Therapeutics ($GANX) - The Parkinson's 'Unicorn' the biotech market is sleeping on. Clinical pr",
@@ -20,36 +20,244 @@
         "sentiment": "positive",
         "score": 0.905
       }
-    ]
+    ],
+    "price": 3.05,
+    "change_percent": 21.51,
+    "market_cap": 117309352,
+    "fifty_two_week_high": 4.34,
+    "fifty_two_week_low": 1.41,
+    "volume": 1508351,
+    "analyst_target": 7.6,
+    "recommendation": "none",
+    "sector": "Healthcare",
+    "description": "Gain Therapeutics, Inc., a biotechnology company, develops novel small molecule therapeutics to treat diseases across various therapeutic areas in Switzerland, Spain, the United States, and Australia. Its drug discovery platform Magellan discovers novel allosteric binding sites in a disease; identifies proprietary small molecules that bind these sites to modulate protein function; and treats the underlying cause of the disease. The company's lead drug candidate is GT-02287, which is currently in a Phase 1b study for the treatment of Parkinson's disease with or without a GBA1 mutation. It has various small molecule drug candidates, which are in the discovery, research, and preclinical stages for the treatment of dementia with Lewy bodies, Alzheimer's disease, and Gaucher's disease, lysosomal storage disorders, metabolic disorders, and solid tumors. Gain Therapeutics, Inc. was founded in 2017 and is based in Bethesda, Maryland."
   },
   {
-    "ticker": "DXST",
+    "ticker": "IBRX",
     "mentions": 3,
-    "avg_sentiment": 0.608,
-    "final_score": 0.798,
+    "avg_sentiment": 0.245,
+    "final_score": 0.406,
     "top_contexts": [
       {
-        "text": "$DXST +62% — waste management micro-cap reports 69% revenue surge in wastewater division",
-        "sentiment": "positive",
-        "score": 0.915
-      },
-      {
-        "text": "WATCHLIST RECAP 03/04/2026",
+        "text": "$AAOI and $IBRX are the only ones i'm tracking. I think each will 3 X by EOY",
         "sentiment": "neutral",
-        "score": -0.007
+        "score": 0.016
       },
       {
-        "text": "$DXST +62% — waste management micro-cap reports 69% revenue surge in wastewater division",
+        "text": "WATCHLIST AND SET UPS FOR THIS COMING WEEK (HUGE LIST)",
+        "sentiment": "neutral",
+        "score": -0.012
+      },
+      {
+        "text": "$IBRX - held 8.57 nicely, needs a strong close above $8.85 and the it has room for $9+ (key break at",
         "sentiment": "positive",
-        "score": 0.915
+        "score": 0.734
       }
-    ]
+    ],
+    "price": 8.67,
+    "change_percent": -3.24,
+    "market_cap": 8913726464,
+    "fifty_two_week_high": 12.43,
+    "fifty_two_week_low": 1.83,
+    "volume": 22380743,
+    "analyst_target": 15.25,
+    "recommendation": "strong_buy",
+    "sector": "Healthcare",
+    "description": "ImmunityBio, Inc., a biotechnology company, focuses on innovating, developing, and commercializing next-generation immunotherapies designed to activate the patient's immune system and deliver durable protection against cancer and infectious diseases. Its platforms for the development of biologic products and product candidates that include cytokine fusion proteins, DNA and vaccine vectors, and cell therapies. The company's platform has generated first-in-human therapeutic agents that are planned to be studied in clinical trials in liquid and solid tumors. Its lead biologic product candidate includes Anktiva, an FDA-approved immunotherapy in combination with bacillus calmette-guérin (BCG) for the treatment of adult patients with BCG unresponsive non-muscle invasive bladder cancer with carcinoma in situ, with or without papillary tumors; and 3M-052, a synthetic TLR7/8 agonist and 3M-052 formulations and related technology. The company has collaboration agreements with National Cancer Institute; Serum Institute of India Private Limited; and BeOne Medicines Ltd. It has license agreement with 3M Innovative Properties Company and Access to Advanced Health Institute. ImmunityBio, Inc. is based in San Diego, California."
+  },
+  {
+    "ticker": "MBAI",
+    "mentions": 3,
+    "avg_sentiment": 0.257,
+    "final_score": 0.382,
+    "top_contexts": [
+      {
+        "text": "$MBAI looking good for tomorrow and a swing into the merger",
+        "sentiment": "positive",
+        "score": 0.836
+      },
+      {
+        "text": "This stock could go big soon - news expected any day",
+        "sentiment": "neutral",
+        "score": 0.044
+      },
+      {
+        "text": "This stock could explode soon - massive news expected soon",
+        "sentiment": "neutral",
+        "score": -0.216
+      }
+    ],
+    "price": 1.78,
+    "change_percent": 3.79,
+    "market_cap": 12973279,
+    "fifty_two_week_high": 3.92,
+    "fifty_two_week_low": 0.593,
+    "volume": 43936,
+    "analyst_target": 0,
+    "recommendation": "none",
+    "sector": "Healthcare",
+    "description": "Check-Cap Ltd., a clinical stage medical diagnostics company, focuses on capsule-based screening technology products. Check-Cap Ltd. was incorporated in 2004 and is based in Isfiya, Israel."
+  },
+  {
+    "ticker": "GBR",
+    "mentions": 4,
+    "avg_sentiment": 0.182,
+    "final_score": 0.344,
+    "top_contexts": [
+      {
+        "text": "WATCHLIST AND SET UPS FOR THIS COMING WEEK (HUGE LIST)",
+        "sentiment": "neutral",
+        "score": -0.012
+      },
+      {
+        "text": "$IBRX - held 8.57 nicely, needs a strong close above $8.85 and the it has room for $9+ (key break at",
+        "sentiment": "positive",
+        "score": 0.734
+      },
+      {
+        "text": "WATCHLIST AT MARKET OPEN WITH SET UPS",
+        "sentiment": "neutral",
+        "score": 0.02
+      }
+    ],
+    "price": 1.07,
+    "change_percent": -1.83,
+    "market_cap": 5491169,
+    "fifty_two_week_high": 1.78,
+    "fifty_two_week_low": 0.67,
+    "volume": 6435726,
+    "analyst_target": 0,
+    "recommendation": "none",
+    "sector": "Real Estate",
+    "description": "New Concept Energy, Inc. engages in the real estate rental business. The company owns land located in Parkersburg, West Virginia. It also provides advisory and management services for an independent oil and gas company. The company was formerly known as CabelTel International Corporation and changed its name to New Concept Energy, Inc. in May 2008. New Concept Energy, Inc. was founded in 1978 and is headquartered in Dallas, Texas."
+  },
+  {
+    "ticker": "EONR",
+    "mentions": 8,
+    "avg_sentiment": 0.126,
+    "final_score": 0.291,
+    "top_contexts": [
+      {
+        "text": "What rising oil prices means for $EONR",
+        "sentiment": "neutral",
+        "score": 0.026
+      },
+      {
+        "text": "$EONR. Heaving Insider Buying. Debt almost nil.",
+        "sentiment": "negative",
+        "score": -0.541
+      },
+      {
+        "text": "In the world of small-cap stocks accessible on the NYSE Amex (i.e., excluding OTC), there are crazy ",
+        "sentiment": "neutral",
+        "score": 0.045
+      }
+    ],
+    "price": 0.67,
+    "change_percent": 9.84,
+    "market_cap": 33478792,
+    "fifty_two_week_high": 0.83,
+    "fifty_two_week_low": 0.267,
+    "volume": 81435955,
+    "analyst_target": 0,
+    "recommendation": "none",
+    "sector": "Energy",
+    "description": "EON Resources Inc., an independent oil and natural gas company, focuses on the acquisition, development, exploration, and production of oil and natural gas properties in the Permian Basin. It holds a 100% working interest in the property that consists of 342 producing wells, as well as 207 water injection wells and one water source well covering an area of approximately 13,700 acres. The company was formerly known as HNR Acquisition Corp and changed its name atop EON Resources Inc. in September 2024. EON Resources Inc. was founded in 2017 and is headquartered in Houston, Texas."
+  },
+  {
+    "ticker": "CTM",
+    "mentions": 2,
+    "avg_sentiment": 0.12,
+    "final_score": 0.284,
+    "top_contexts": [
+      {
+        "text": "Castellum, Inc. ($CTM) releases 2025 Annual Report",
+        "sentiment": "neutral",
+        "score": -0.014
+      },
+      {
+        "text": "$CTM - they’re currently on Phase 3. We’re growing stronger than ever. Do your DD and you’ll be fasc",
+        "sentiment": "neutral",
+        "score": 0.245
+      }
+    ],
+    "price": 0.9,
+    "change_percent": -3.07,
+    "market_cap": 85151472,
+    "fifty_two_week_high": 1.56,
+    "fifty_two_week_low": 0.79,
+    "volume": 900013,
+    "analyst_target": 3.5,
+    "recommendation": "none",
+    "sector": "Technology",
+    "description": "Castellum, Inc. provides services in the areas of cybersecurity, information technology, electronic and information warfare, and information operations. Its services include intelligence analysis, software development, software engineering, program management, strategic and mission planning, information assurance, cybersecurity and policy support, data analytics, and model based systems engineering services. It serves customers in the federal government, financial services, healthcare, and other data application sectors. The company is based in Vienna, Virginia."
+  },
+  {
+    "ticker": "LUNR",
+    "mentions": 2,
+    "avg_sentiment": 0.166,
+    "final_score": 0.277,
+    "top_contexts": [
+      {
+        "text": "WATCHLIST AND SET UPS FOR THIS COMING WEEK (HUGE LIST)",
+        "sentiment": "neutral",
+        "score": -0.012
+      },
+      {
+        "text": "$LUNR 17.43 is support so this needs to hold, if we get a close above $17.72, this has to break $18.",
+        "sentiment": "positive",
+        "score": 0.345
+      }
+    ],
+    "price": 17.63,
+    "change_percent": -0.23,
+    "market_cap": 2508939520,
+    "fifty_two_week_high": 23.315,
+    "fifty_two_week_low": 6.135,
+    "volume": 11520674,
+    "analyst_target": 18.88889,
+    "recommendation": "buy",
+    "sector": "Industrials",
+    "description": "Intuitive Machines, Inc. designs, manufactures, and operates space products and services in the United States. The company provides delivery services for the transportation and delivery of payloads, such as satellites, scientific instruments, and cargo to various destinations in space, rideshare delivery, and lunar surface access; data transmission services, which include the collection, processing, and interpretation of space-based data, utilizing AI applications, such as command, control, communications, reconnaissance and prospecting; and infrastructure as a service delivers space assets performing tasks and making decisions without human intervention that are designed to perform essential functions, such as navigation, maintenance, scientific data collection, and system health monitoring. It offers Nova-C lunar lander combines flight-proven with a scalable design to meet the demands of the emerging lunar economy; Micro-Nova develops propulsive drone that is designed to land, deploy, and hop on the company's IM-2 mission; and Nova-D developed to transport critical payloads, including infrastructure services, such as fission surface power systems, lunar terrain vehicles, and rovers enabling sustainable lunar exploration and development. In addition, the company provides lunar data network for tracking and communications network and a constellation of lunar data network satellites. It serves its products to the U.S. government, which include NASA, national security space, U.S. department of Defense, and state governments; commercial; and international customers. The company was founded in 2013 and is headquartered in Houston, Texas."
+  },
+  {
+    "ticker": "BNAI",
+    "mentions": 7,
+    "avg_sentiment": 0.122,
+    "final_score": 0.267,
+    "top_contexts": [
+      {
+        "text": "WATCHLIST AND SET UPS FOR THIS COMING WEEK (HUGE LIST)",
+        "sentiment": "neutral",
+        "score": -0.012
+      },
+      {
+        "text": "$IBRX - held 8.57 nicely, needs a strong close above $8.85 and the it has room for $9+ (key break at",
+        "sentiment": "positive",
+        "score": 0.734
+      },
+      {
+        "text": "AH WATCHLIST WITH SET UPS, MESSAGE FOR SET UPS ON YOUR STOCKS TOO",
+        "sentiment": "neutral",
+        "score": 0.04
+      }
+    ],
+    "price": 56.27,
+    "change_percent": 16.0,
+    "market_cap": 328282112,
+    "fifty_two_week_high": 86.28,
+    "fifty_two_week_low": 1.18,
+    "volume": 2130109,
+    "analyst_target": 0,
+    "recommendation": "none",
+    "sector": "Technology",
+    "description": "Brand Engagement Network, Inc. provides conversational AI assistants. The company's AI agents are built on proprietary natural language processing, multisensory awareness, sentiment, and environmental analysis, as well as real-time individuation and personalization capabilities. It serves the automotive, healthcare, financial services, and other industries through direct sales force and channel partners. Brand Engagement Network, Inc. was formerly known as Blockchain Exchange Network Inc. and changed its name to Brand Engagement Network, Inc. in April 2023. The company was founded in 2018 and is based in Jackson, Wyoming."
   },
   {
     "ticker": "AIFF",
     "mentions": 3,
-    "avg_sentiment": 0.569,
-    "final_score": 0.772,
+    "avg_sentiment": 0.191,
+    "final_score": 0.259,
     "top_contexts": [
       {
         "text": "$AIFF +64% — brain scan AI company announces 33x growth in scans + NVIDIA partnership",
@@ -66,13 +274,23 @@
         "sentiment": "positive",
         "score": 0.871
       }
-    ]
+    ],
+    "price": 1.85,
+    "change_percent": 30.28,
+    "market_cap": 26296052,
+    "fifty_two_week_high": 6.0,
+    "fifty_two_week_low": 0.62,
+    "volume": 38597079,
+    "analyst_target": 0,
+    "recommendation": "none",
+    "sector": "Technology",
+    "description": "Firefly Neuroscience, Inc., a medical technology and artificial intelligence company, provides neuroscientific solutions that improve brain health outcomes for patients with mental illnesses and neurological disorders. The company offers Brain Network Analytics, a software that focuses on diagnostic and treatment for people suffering from mental illnesses and cognitive disorders, including depression, dementia, anxiety disorders, concussions, and attention-deficit/hyperactivity disorder. It serves pharmaceutical companies and medical practitioners. Firefly Neuroscience, Inc. was founded in 2006 and is based in Kenmore, New York."
   },
   {
     "ticker": "SOC",
     "mentions": 2,
-    "avg_sentiment": 0.503,
-    "final_score": 0.733,
+    "avg_sentiment": 0.177,
+    "final_score": 0.258,
     "top_contexts": [
       {
         "text": "AH WATCHLIST AND SET UPS",
@@ -84,134 +302,16 @@
         "sentiment": "positive",
         "score": 0.927
       }
-    ]
-  },
-  {
-    "ticker": "OLOX",
-    "mentions": 5,
-    "avg_sentiment": 0.402,
-    "final_score": 0.633,
-    "top_contexts": [
-      {
-        "text": "Nano cap oil, $OLOX",
-        "sentiment": "neutral",
-        "score": 0.09
-      },
-      {
-        "text": "$OLOX - Olenox Industries Inc. (Nasdaq: OLOX), formerly known as Safe &amp; Green Holdings Corp. (SG",
-        "sentiment": "neutral",
-        "score": 0.033
-      },
-      {
-        "text": "$OLOX - The retained EV company continues to accelerate its national footprint to meet rising consum",
-        "sentiment": "positive",
-        "score": 0.93
-      }
-    ]
-  },
-  {
-    "ticker": "SYNX",
-    "mentions": 2,
-    "avg_sentiment": 0.485,
-    "final_score": 0.628,
-    "top_contexts": [
-      {
-        "text": "AH WATCHLIST WITH SET UPS, MESSAGE FOR SET UPS ON YOUR STOCKS TOO",
-        "sentiment": "neutral",
-        "score": 0.04
-      },
-      {
-        "text": "$SYNX defense microcap trading volume today 6588% higher than daily average. Stock up 15% today but ",
-        "sentiment": "positive",
-        "score": 0.929
-      }
-    ]
-  },
-  {
-    "ticker": "PRSO",
-    "mentions": 7,
-    "avg_sentiment": 0.338,
-    "final_score": 0.622,
-    "top_contexts": [
-      {
-        "text": "$PRSO +52% — semiconductor micro-cap lands military drone contract. Happy Friday.",
-        "sentiment": "positive",
-        "score": 0.718
-      },
-      {
-        "text": "⚡MORNING WATCHLIST⚡",
-        "sentiment": "neutral",
-        "score": -0.034
-      },
-      {
-        "text": "**WATCHLIST RECAP 03/06/2026** \n\n$PRSO | +23% max profit \n\n$TURB | +13.5% max profit \n\n$MOBX | +23% ",
-        "sentiment": "neutral",
-        "score": 0.221
-      }
-    ]
-  },
-  {
-    "ticker": "FTRK",
-    "mentions": 12,
-    "avg_sentiment": 0.238,
-    "final_score": 0.528,
-    "top_contexts": [
-      {
-        "text": "FTRK – Newly Listed Nasdaq Entertainment Agency",
-        "sentiment": "neutral",
-        "score": 0.04
-      },
-      {
-        "text": "FTRK – Entertainment + Marketing Microcap",
-        "sentiment": "neutral",
-        "score": 0.024
-      },
-      {
-        "text": "$FTRK – Fast Track Group Growth Story",
-        "sentiment": "positive",
-        "score": 0.788
-      }
-    ]
-  },
-  {
-    "ticker": "IBRX",
-    "mentions": 2,
-    "avg_sentiment": 0.375,
-    "final_score": 0.524,
-    "top_contexts": [
-      {
-        "text": "$AAOI and $IBRX are the only ones i'm tracking. I think each will 3 X by EOY",
-        "sentiment": "neutral",
-        "score": 0.016
-      },
-      {
-        "text": "$IBRX - held 8.57 nicely, needs a strong close above $8.85 and the it has room for $9+ (key break at",
-        "sentiment": "positive",
-        "score": 0.734
-      }
-    ]
-  },
-  {
-    "ticker": "ASNS",
-    "mentions": 8,
-    "avg_sentiment": 0.244,
-    "final_score": 0.519,
-    "top_contexts": [
-      {
-        "text": "$ASNS +56% — $1.5M market cap wins order on $120M Caltrans modernization project",
-        "sentiment": "positive",
-        "score": 0.887
-      },
-      {
-        "text": "WATCHLIST RECAP 03/04/2026",
-        "sentiment": "neutral",
-        "score": -0.007
-      },
-      {
-        "text": "$ASNS +56% — $1.5M market cap wins order on $120M Caltrans modernization project",
-        "sentiment": "positive",
-        "score": 0.887
-      }
-    ]
+    ],
+    "price": 14.37,
+    "change_percent": 3.75,
+    "market_cap": 2115897472,
+    "fifty_two_week_high": 35.0,
+    "fifty_two_week_low": 3.72,
+    "volume": 13988492,
+    "analyst_target": 25.5,
+    "recommendation": "strong_buy",
+    "sector": "Energy",
+    "description": "Sable Offshore Corp. operates as an independent oil and gas company in the United States. The company operates through three platforms located in federal waters offshore California. It also owns and operates 16 federal leases across approximately 76,000 acres, as well as subsea pipelines that transports crude oil, natural gas, and produced water from the platforms to the onshore processing facilities. The company was formerly known as Flame Acquisition Corp. and changed its name to Sable Offshore Corp. in February 2024. Sable Offshore Corp. was incorporated in 2020 and is headquartered in Houston, Texas."
   }
 ]

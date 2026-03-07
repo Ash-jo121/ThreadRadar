@@ -1,40 +1,40 @@
 $GANX
-  Mentions: 5 | Sentiment: +0.462 | Score: +1.314
+  Mentions: 5 | Sentiment: +0.314 | Score: +0.888
   Context: Gain Therapeutics ($GANX) - The Parkinson's 'Unicorn' the biotech market is sleeping on. Clinical pr
 
-$DXST
-  Mentions: 3 | Sentiment: +0.608 | Score: +0.798
-  Context: $DXST +62% — waste management micro-cap reports 69% revenue surge in wastewater division
+$IBRX
+  Mentions: 3 | Sentiment: +0.245 | Score: +0.406
+  Context: $AAOI and $IBRX are the only ones i'm tracking. I think each will 3 X by EOY
+
+$MBAI
+  Mentions: 3 | Sentiment: +0.257 | Score: +0.382
+  Context: $MBAI looking good for tomorrow and a swing into the merger
+
+$GBR
+  Mentions: 4 | Sentiment: +0.182 | Score: +0.344
+  Context: WATCHLIST AND SET UPS FOR THIS COMING WEEK (HUGE LIST)
+
+$EONR
+  Mentions: 8 | Sentiment: +0.126 | Score: +0.291
+  Context: What rising oil prices means for $EONR
+
+$CTM
+  Mentions: 2 | Sentiment: +0.120 | Score: +0.284
+  Context: Castellum, Inc. ($CTM) releases 2025 Annual Report
+
+$LUNR
+  Mentions: 2 | Sentiment: +0.166 | Score: +0.277
+  Context: WATCHLIST AND SET UPS FOR THIS COMING WEEK (HUGE LIST)
+
+$BNAI
+  Mentions: 7 | Sentiment: +0.122 | Score: +0.267
+  Context: WATCHLIST AND SET UPS FOR THIS COMING WEEK (HUGE LIST)
 
 $AIFF
-  Mentions: 3 | Sentiment: +0.569 | Score: +0.772
+  Mentions: 3 | Sentiment: +0.191 | Score: +0.259
   Context: $AIFF +64% — brain scan AI company announces 33x growth in scans + NVIDIA partnership
 
 $SOC
-  Mentions: 2 | Sentiment: +0.503 | Score: +0.733
+  Mentions: 2 | Sentiment: +0.177 | Score: +0.258
   Context: AH WATCHLIST AND SET UPS
-
-$OLOX
-  Mentions: 5 | Sentiment: +0.402 | Score: +0.633
-  Context: Nano cap oil, $OLOX
-
-$SYNX
-  Mentions: 2 | Sentiment: +0.485 | Score: +0.628
-  Context: AH WATCHLIST WITH SET UPS, MESSAGE FOR SET UPS ON YOUR STOCKS TOO
-
-$PRSO
-  Mentions: 7 | Sentiment: +0.338 | Score: +0.622
-  Context: $PRSO +52% — semiconductor micro-cap lands military drone contract. Happy Friday.
-
-$FTRK
-  Mentions: 12 | Sentiment: +0.238 | Score: +0.528
-  Context: FTRK – Newly Listed Nasdaq Entertainment Agency
-
-$IBRX
-  Mentions: 2 | Sentiment: +0.375 | Score: +0.524
-  Context: $AAOI and $IBRX are the only ones i'm tracking. I think each will 3 X by EOY
-
-$ASNS
-  Mentions: 8 | Sentiment: +0.244 | Score: +0.519
-  Context: $ASNS +56% — $1.5M market cap wins order on $120M Caltrans modernization project
 

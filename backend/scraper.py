@@ -74,6 +74,9 @@ def fetch_all():
             posts = fetch_posts(subreddit,category=category,limit=100)
 
             for post in posts:
+                if post["score"] < -5:
+                    continue
+
                 if(post["id"] in seen_ids):
                     continue
 

@@ -21,11 +21,20 @@ export default function Dashboard() {
     const data = await response.json();
     const mapped: TickerData[] = data.map((item: any) => ({
       stockName: item.ticker,
-      stockPrice: 0,
       mentions: item.mentions,
       averageSentiment: item.avg_sentiment,
       finalScore: item.final_score,
       topContexts: item.top_contexts,
+      price: item.price,
+      changePercent: item.change_percent,
+      marketCap: item.market_cap,
+      fiftyTwoWeekHigh: item.fifty_two_week_high,
+      fiftyTwoWeekLow: item.fifty_two_week_low,
+      volume: item.volume,
+      analystTarget: item.analyst_target,
+      recommendation: item.recommendation,
+      sector: item.sector,
+      description: item.description,
     }));
     setTickerData(mapped);
   };
@@ -57,7 +66,7 @@ export default function Dashboard() {
           {tickerData.map((item) => (
             <TableRow key={item.stockName}>
               <TableCell className="font-medium">{item.stockName}</TableCell>
-              <TableCell>{item.stockPrice}</TableCell>
+              <TableCell>{item.price}</TableCell>
               <TableCell>{item.mentions}</TableCell>
               <TableCell>{item.averageSentiment}</TableCell>
               <TableCell>{item.finalScore}</TableCell>

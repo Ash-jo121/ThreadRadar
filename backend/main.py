@@ -1,4 +1,5 @@
 import json
+from yahooFn import enrich_with_price
 from scraper import fetch_all
 from extractor import aggregate_tickers,extract_from_post
 from sentiment import analyze_sentiment
@@ -7,6 +8,10 @@ def analyze_ticker_sentiment(all_posts):
     master = {}
 
     for post in all_posts:
+        comment_count = len(post.get("comments",[]))
+
+        engagement_weight = min(1.0,0.3 + (comment_count/50)*0.7)
+
         found = extract_from_post(post)
 
         for ticker,data in found.items():
@@ -23,7 +28,10 @@ def analyze_ticker_sentiment(all_posts):
 
             for context in data["contexts"]:
                 sentiment = analyze_sentiment(context)
-                master[ticker]["sentiment_scores"].append(sentiment["score"])
+
+                weighted_score = sentiment["score"] * engagement_weight
+
+                master[ticker]["sentiment_scores"].append(weighted_score)
                 master[ticker]["contexts"].append({
                     "text":context[:150],
                     "sentiment":sentiment["label"],
@@ -69,10 +77,13 @@ if __name__ == "__main__":
     print("\nStep 2: Analyzing tickers and sentiment...")
     results = analyze_ticker_sentiment(posts)
 
+    print("\nStep 3: Adding Stock prices from yahoo finance...")
+    results = enrich_with_price(results[:10])
+
     print("\n=== TOP STOCK PICKS ===\n")
 
     with open("output.json", "w",encoding="utf-8") as file:
-        json.dump(results[:10], file, indent=2,ensure_ascii=False)
+        json.dump(results, file, indent=2,ensure_ascii=False)
     
     with open("output.txt", "w",encoding="utf-8") as file:
         for r in results[:10]:
